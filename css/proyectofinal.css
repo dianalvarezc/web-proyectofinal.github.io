@@ -1,0 +1,215 @@
+/*DOCUMENTO CSS*/
+
+
+* {margin: 0;
+padding: 0;}
+
+
+div, header, aside, nav, main , article , section, footer { box-sizing: border-box;
+    display: block;}
+
+.accion { 
+    /*background-color: #804415 */
+    display: block;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    text-align: center;
+    height: 250px;}
+
+.item1 { 
+display: block;
+color: #804415;
+padding-right: 250px;
+padding-left: 250px;
+}
+
+header { display: block;
+
+/*background-color: #ffd0aa8a;*/}
+
+p { font-family: 'Overpass', sans-serif;
+font-size: 1em; }
+h2 { font-family: 'Abril Fatface', cursive;
+font-size: 3em;}
+
+.accion3 { 
+    display: block;
+    /*background-color: #552600;*/
+    padding: 100px 0px;
+    text-align: center;
+    min-height: 1px;
+    }
+    
+.item3{
+    display: block;
+    min-height: 1px;
+    padding: 35px;
+    background-color: #D4996A;
+    border-radius: 10px;
+    }
+
+.h22{
+    font-family: 'Abril Fatface', cursive;
+    }
+
+ .btn2 {
+    display: block;
+    color: #552600;
+    padding: 10px;
+    border: 1px solid #552600;
+    border-radius: 10px;
+    font-family: 'Abril Fatface', cursive;
+    text-align: center;
+}
+
+
+.logo2{
+    margin: 15px;
+}
+
+.pagina {
+display: block;
+/*background-color: aquamarine;*/
+padding: 15px;
+margin: 10px;
+}
+
+h1 {display: block;
+    font-family: 'Abril Fatface', cursive;
+    padding: 15px;
+    text-align: center;
+}
+
+/*.galeriayformulario { display: block;
+display: flex;
+background-color: rgb(4, 104, 70);
+padding: 15px;
+margin: 10px;}*/
+
+.itemssphotos { 
+display: block;
+display: flex;
+padding: 15px;
+
+}
+
+.itemphoto { 
+    display: block;
+    margin: 15px;
+    width: 350px;
+    font-family: 'Overpass', sans-serif;
+
+}
+
+.galeria { 
+display: block;
+/*background-color: rgb(175, 177, 44);*/
+padding: 15px;
+margin: 10px;
+}
+
+
+.miniheader { 
+display: block;
+background-color: #fff27f;
+padding: 15px;
+margin: 10px;
+text-align: center;
+border-radius: 10px;
+color: #552600;
+}
+
+
+.fotos {
+display: block;
+/*background-color: rgb(214, 125, 23);*/
+padding-right: 250px;
+}
+
+
+.formulario {
+display: block;
+background-color: #fff27f;
+padding: 15px;
+margin: 10px;
+text-align: center;
+border-radius: 10px;
+color: #552600;
+}
+
+.form {
+
+display: block;
+text-align: center;
+margin: 15px;
+padding: 15px;
+background-color: #D4996A;
+width: 500px;
+font-family: 'Overpass', sans-serif;
+}
+
+.form1 {
+    display: block;
+    /*background-color: aquamarine;*/
+    padding-right: 630px;
+}
+
+h4 { margin: 3px;}
+h5 { text-align: center;}
+
+.division { 
+display: block;
+display: flex;
+/*background-color: aqua;*/
+margin: 10px;
+padding: 15px;
+}
+
+.iconos {
+
+display: block;
+/*background-color: #fff27f;*/
+margin: 30px;
+list-style: none;
+}
+
+.text { display: block;
+text-align: left;
+color: gray;
+padding-right: 900px;}
+
+
+
+/*
+<ul class="iconos">
+        <li>
+            <i class="bi bi-twitter"></i>
+        </li>
+        <li></li>
+        <li></li>
+    </ul>
+*/
+/*
+{color: #AA6B39 }	
+ { color: #FFD0AA }
+ { color: #D4996A }
+ { color:#804415  }
+{color: #552600 }
+
+font-family: 'Abril Fatface', cursive;
+font-family: 'Overpass', sans-serif;*/
+
+/*
+ <ul class="iconos">
+        <li>
+          <img src="../img/twitter.svg" alt="">  
+        </li>
+        <li></li>
+        <li>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+                <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+              </svg>
+        </li>
+    </ul>
+
+    */
